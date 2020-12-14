@@ -11,7 +11,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   #### First Time Visitor Goals
 
-    As a First Time Visitor, I want to: 
+         As a First Time Visitor, I want to 
 
         1. Easily find information about the gym.
         2. Be able to easily navigate throughout the site and find the information I am looking for.
@@ -23,7 +23,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   #### Returning Visitor Goals
 
-    As a Returning Visitor, I want to:
+        As a Returning Visitor, I want to
 
         1. Find information about the classes offered.
         2. Find a way to contact the company if I have any questions.
@@ -32,7 +32,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   #### Frequent User Goals
 
-    As a Frequent User, I want to:
+        As a Frequent User, I want to
     
         1. Check if there are any changes to the existing class schedule.
         2. See if there are any new services added.
@@ -51,4 +51,4 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 *   ### Wireframes
 
-    -   Desktop, tablet and phone Wireframe - [View](/img/milestone1-wireframe.pdf)
+    -   Desktop, tablet and phone Wireframe - [View](/assets/img/milestone1-wireframe.pdf)
