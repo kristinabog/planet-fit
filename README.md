@@ -1,45 +1,54 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">PlanetFit</h1>
 
-Welcome USER_NAME,
+This is the marketing website for a local gym in Belgium named PlanetFit. 
+The website is a single scrolling page with 4 separate page areas.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients and existing clients.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: *Make Public*,
+    As a First Time Visitor, I want to: 
 
-Another blue button should appear to click: *Open Browser*.
+        1. Easily find information about the gym.
+        2. Be able to easily navigate throughout the site and find the information I am looking for.
+        3. The images to motivate me to sign up for the gym.
+        4. Easily find information on all the services they offer.
+        5. Find the location and their time schedule.
+        5. The website to responsiveon any device, desktop, tablet or phone. For the content to look good and clean, and to be usable on all devices.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+    -   #### Returning Visitor Goals
 
-Another blue button should appear to click: *Open Browser*.
+    As a Returning Visitor, I want to:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        1. Find information about the classes offered.
+        2. Find a way to contact the company if I have any questions.
+        3. Find more information about the company on social media.
+        4. Easily sign up as a member and see the different types of memberships and their prices.
 
-## Updates Since The Instructional Video
+    -   #### Frequent User Goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    As a Frequent User, I want to:
+    
+        1. Check if there are any changes to the existing class schedule.
+        2. See if there are any new services added.
+        3. Check if there are changes to the existing time schedule of the gym.
+       
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-   ### Design
+    -   #### Colour Scheme
+        -   The main colours used are: a shade of pale blue (#5BCDC6), grey and black.
+    -   #### Typography
+        -   
+    -   #### Imagery
+        -   The imagery is important to wake up the motivation of the customer. In the header there will be a background with someone working out. 
+            In the blocks with information about the services there will also be a background dispalying the suitable class/sport. 
+            In the section for the Sign Up form, there will be a background of someone really fit to trigger that last motivation to sign up.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+*   ### Wireframes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+    -   Desktop, tablet and phone Wireframe - [View](/img/milestone1-wireframe.pdf)
