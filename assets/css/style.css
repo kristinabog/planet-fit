@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Karla:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* --------------------------------------Heading */
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding: 0;
+    padding-bottom: 4px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.btn-info {
+    font-weight: bold;
+    border-radius: 60px;
+    width: 130px;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:active:focus {
+    background-color: #fafafa;
+    border-color: #151414;
+    color: #17a2b8;
+}
