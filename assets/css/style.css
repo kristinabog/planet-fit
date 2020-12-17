@@ -4,6 +4,25 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+.block-divider {
+    width: 75px;
+    height: 3px;
+    border: 0;
+    background-color: #7F8888;
+}    
+
+.section-heading {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #7F8888;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
 /* --------------------------------------Heading */
 
 /* Navbar */
@@ -38,4 +57,47 @@ body {
     background-color: #fafafa;
     border-color: #151414;
     color: #17a2b8;
+}
+
+/* Callout */
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../img/bg-callout.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    position: relative;
+}
+
+/* Callout Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: 300;
+}
+
+.jumbotron .lead {
+    color: #fff;
+    margin: 40px 0;
 }
