@@ -67,13 +67,13 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .callout-container {
     height: 100vh;
 
-    background: url('../img/bg-callout.jpg') no-repeat center center fixed; 
+    background: url("../img/bg-callout.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,3 +101,24 @@ body {
     color: #fff;
     margin: 40px 0;
 }
+
+/*--------------------------------Services */
+
+/* Cards */
+
+.card {
+    height: 15rem;
+    width: 25rem;
+    margin-top: 40px;
+}
+
+.card-body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/11/01/58/woman-1730325_1280.jpg');
+    background-size: cover;
+    
+}
+
+.card-header {
+    color: #fafafa;
+}
+
