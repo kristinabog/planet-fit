@@ -51,4 +51,22 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 *   ### Wireframes
 
-    -   Desktop, tablet and phone Wireframe - [View](/assets/img/milestone1-wireframe.pdf)
+    -   Desktop, tablet and phone Wireframe - [View](/assets/img/milestone1-wireframe.pdf)Pixa
+
+
+Credit Images
+
+Pixabay: 
+bg-callout.jpg https://cdn.pixabay.com/photo/2015/07/02/10/23/training-828741_1280.jpg
+bg-service1 https://cdn.pixabay.com/photo/2016/10/11/01/58/woman-1730325_1280.jpg
+bg-service3 https://pixabay.com/photos/weights-pilates-girls-1948837/
+bg-service4 https://cdn.pixabay.com/photo/2017/01/08/10/41/sports-1962574_1280.jpg
+background schedule: https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg
+
+
+Unspalsh.com:
+bg-service2 https://unsplash.com/photos/gJtDg6WfMlQ
+bg-service5 https://unsplash.com/photos/YJdCZba0TYE
+bg-service6 https://unsplash.com/photos/0sa8D74iodI
+
+
