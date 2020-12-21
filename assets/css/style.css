@@ -28,28 +28,6 @@ body {
     margin-top: 30px;
 }
 
-.bg-container {
-    height: 100vh;
-
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_1280.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    margin-top: 40px;
-}
-
-.table {
-    margin-top: 30px;
-}
-
-table {
-    text-transform: uppercase;
-    text-align: center;
-}
-
 /* --------------------------------------Heading */
 
 /* Navbar */
@@ -203,6 +181,55 @@ table {
         url('../img/bg-service6.jpg');
     background-size: cover;
 }
+
+/* ---------------------------------Schedule */
+
+.bg-container {
+    height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_1280.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin-top: 40px;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+table {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ----------------------------------------Form */
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+
+/*--------------------------------------- Footer */
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #17a2b8;
+}
+
+
 
 
 
