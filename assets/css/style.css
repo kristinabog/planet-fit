@@ -2,7 +2,11 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
 }
+
+
+/* --------------------------------------Heading */
 
 .block-divider {
     width: 75px;
@@ -20,7 +24,7 @@ body {
 
 .section-heading {
     font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 40px;
     color: #7F8888;
     text-align: center;
@@ -28,14 +32,13 @@ body {
     margin-top: 30px;
 }
 
-/* --------------------------------------Heading */
-
 /* Navbar */
 
 .navbar {
     margin-bottom: 0;
     width: 100%;
     border: 0;
+    font-size: 20px;
 }
 
 .navbar .navbar-nav a {
@@ -53,6 +56,7 @@ body {
     font-weight: bold;
     border-radius: 60px;
     width: 130px;
+    font-size: 20px;
 }
 
 .btn-info:hover,
@@ -101,25 +105,28 @@ body {
 .jumbotron-header {
     color: #fff;
     font-weight: 300;
+    font-size: 60px;
 }
 
 .jumbotron .lead {
     color: #fff;
     margin: 40px 0;
+    font-weight: 200;
+    font-size: 26px;
 }
 
-/*--------------------------------Services */
+/*----------------------------------Services */
 
 /* Cards */
 
 .card {
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 400px;
     margin-top: 40px;
 }
 
 .card-header {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #fafafa;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -185,7 +192,7 @@ body {
 /* ---------------------------------Schedule */
 
 .bg-container {
-    height: 100vh;
+    height: 85vh; 
 
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                 url('https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_1280.jpg');
@@ -197,39 +204,48 @@ body {
     margin-top: 40px;
 }
 
-.table {
-    margin-top: 30px;
-}
-
 table {
     text-transform: uppercase;
     text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 /* ----------------------------------------Form */
 
-
 .center-form {
-    padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
 }
-
-
 
 /*--------------------------------------- Footer */
 
+footer {
+    background-color: #7F8888;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+
+footer div h5 {
+    text-transform: uppercase;
+    font-size: 21px;
+}
 
 .social-links li a i {
     width: 32px;
-    height: 32px;
-    font-size: 13px;
+    height: 20px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 6px;
     text-align: center;
     color: #fafafa;
     background-color: #17a2b8;
 }
 
-
-
-
+.footer-details {
+    font-size: 15px;
+}
 
