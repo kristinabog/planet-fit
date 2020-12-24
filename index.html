@@ -45,7 +45,7 @@
         <div class="container-fluid callout-container text-center">
             <div class="opaque-overlay">&nbsp;</div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" id="col-callout">
                         <section class="callout jumbotron">
                             <h2 class="jumbotron-header">Get FIT with <span style="color:#17a2b8;font-weight:bold;">PLanetFIT</span>!</h2>
                             <hr class="block-divider">
@@ -59,6 +59,7 @@
         </div>
         <!-- Callout -->
     </header>
+
         <!-- Services -->
     <section class="container-fluid">
         <div class="row item-center">
@@ -71,17 +72,17 @@
         </div>
  
         <div class="row text-center">
-            <div class="col-12 col-md-6 col-lg-4 item-center">
-                <div class="card">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad">
+                <div class="card service-card">
                     <div class="card-body bg-service1">
                         <h5 class="card-header">Personal Training</h5>
                         <p class="card-text">With a team of over 20 trainers, we offer personal training with high quality and with the 
-                        personal attention anyone needs to reach their goals.</p>
+                        needed personal attention.</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 item-center">
-               <div class="card">
+               <div class="card service-card">
                     <div class="card-body bg-service2">
                         <h5 class="card-header">Group Fitness Classes</h5>
                         <p class="card-text">We offer different kind of classes which are suitable for any levels. 
@@ -90,16 +91,15 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 item-center">
-                <div class="card">
+                <div class="card service-card">
                     <div class="card-body bg-service3">
                         <h5 class="card-header">Pilates</h5>
-                        <p class="card-text">Pilates is a method of exercise that consists of low-impact flexibility and muscular strength and endurance movements. 
-                        We offer Pilates every day, with a highly experienced trainer.</p>
+                        <p class="card-text">Pilates is a method of exercise that consists of low-impact flexibility and muscular strength and endurance movements. </p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 item-center">
-                <div class="card">
+                <div class="card service-card">
                     <div class="card-body bg-service4">
                         <h5 class="card-header">Spinning Classes</h5>
                         <p class="card-text">Our spinning classes are offered every day in the morning and evening, so everyone can join them.</p>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 item-center">
-               <div class="card">
+               <div class="card service-card">
                     <div class="card-body bg-service5">
                         <h5 class="card-header">Yoga Classes</h5>
                         <p class="card-text">Relax your body after a good workout and join our yoga classes which we offer every morning, afternoon and evening.</p>
@@ -115,19 +115,20 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 item-center">
-                <div class="card">
+                <div class="card service-card">
                     <div class="card-body bg-service6">
                         <h5 class="card-header">Strength training</h5>
                         <p class="card-text">We have an amazing range of gym equipment. we have areas for cardio, free weights, weights machines and more!</p>
                     </div>
                 </div>
             </div>
-        </div>             
+        </div> 
+               
     </section>
     <!-- Services -->
 
     <!-- Schedule -->
-    <section class="container-fluid bg-container">
+    <section class="container-fluid bg-container" style="padding-left: 0px;">
         <div class="row">
             <div class="col-12 item-center">
                 <h2 class="section-heading" style="color:#fafafa;">
@@ -136,7 +137,12 @@
                 <hr class="block-divider-white">
             </div>
         </div>
-        <div class="row item-center">
+        
+        <div class="row item-center" id="schedule-img-position">
+            <img src="assets/img/schedule.png" class="img-fluid" id="img-schedule" alt="Schedule Classes">
+        </div>
+        <!-- 
+         <div class="row item-center">
             <div class="col-lg-8 col-md-12 d-none-sm item-center">
                 <table class="table table-bordered table-dark">
                     <thead>
@@ -147,7 +153,6 @@
                             <th scope="col">Wednesday</th>
                             <th scope="col">Thursday</th>
                             <th scope="col">Friday</th>
-                            <th scope="col">Saturday</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -158,7 +163,6 @@
                             <td>Pilates</td>
                             <td>Pilates</td>
                             <td>Pilates</td>
-                            <td>Yoga</td>
                         </tr>
                         <tr>
                         <th scope="row" class="bg-info">10:00</th>
@@ -167,16 +171,6 @@
                             <td>Cycling</td>
                             <td>TRX</td>
                             <td>Cycling</td>
-                            <td>Cycling</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">14:00</th>
-                            <td>Core</td>
-                            <td>&nbsp;</td>
-                            <td>TRX</td>
-                            <td>&nbsp;</td>
-                            <td>Cross HIT</td>
-                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                         <th scope="row" class="bg-info">15:00</th>
@@ -184,7 +178,6 @@
                             <td>Core</td>
                             <td>&nbsp;</td>
                             <td>Cross HIT</td>
-                            <td>&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
@@ -194,7 +187,6 @@
                             <td>Body Pump</td>
                             <td>Cross HIT</td>
                             <td>HIIT</td>
-                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                         <th scope="row" class="bg-info">18:00</th>
@@ -203,7 +195,6 @@
                             <td>Cycling</td>
                             <td>Yoga</td>
                             <td>Cycling</td>
-                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                         <th scope="row" class="bg-info">19:00</th>
@@ -212,7 +203,6 @@
                             <td>HIIT</td>
                             <td>Cycling</td>
                             <td>TRX</td>
-                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                         <th scope="row" class="bg-info">20:00</th>
@@ -221,15 +211,15 @@
                             <td>Zumba</td>
                             <td>Yoga</td>
                             <td>Zumba</td>
-                            <td>&nbsp;</td>
                         </tr>
                     </tbody>
                 </table>
                 <p class="text-muted"><small>Please note there are no classes on Sundays.</small></p>
             </div>
-        </div>
+            -->
     </section>
     <!-- Schedule -->
+
     <!-- Sign up form -->
    <section class="container-fluid" style="margin-bottom:50px;">
        <div class="row">
