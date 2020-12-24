@@ -16,28 +16,28 @@
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/img/logo-nav.png" width="166" height="100%" alt="Logo Planetfit">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active mr-2">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <div class="d-none d-md-block">
+            <div class="d-none d-lg-block">
                 <p class="navbar-text my-auto mr-2"><i>Get FIT now!</i></p>
-                <a href="/" class="btn btn-info">Sign up</a> 
+                <a href="#signup" class="btn btn-info">Sign up</a> 
             </div>
         </nav>
 
@@ -51,7 +51,7 @@
                             <hr class="block-divider">
                             <p class="lead">Sign up today and enjoy the first month for free!</p>
                             <span class="d-inline d-sm-none"><br></span>
-                            <button class="btn btn-info btn--jumbotron">Sign Up</button>
+                            <a href="#signup" class="btn btn-info btn--jumbotron">Sign Up</a>
                             <p class="text-muted"><small>You must be 18 or older to join our gym.</small></p>
                         </section>
                     </div>
@@ -62,7 +62,7 @@
 
         <!-- Services -->
     <section class="container-fluid">
-        <div class="row item-center">
+        <div class="row item-center" id="services">
             <div class="col-12">
                 <h2 class="section-heading">
                     Our Services
@@ -72,7 +72,7 @@
         </div>
  
         <div class="row text-center">
-            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad1">
                 <div class="card service-card">
                     <div class="card-body bg-service1">
                         <h5 class="card-header">Personal Training</h5>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item-center">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad2">
                <div class="card service-card">
                     <div class="card-body bg-service2">
                         <h5 class="card-header">Group Fitness Classes</h5>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item-center">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad3">
                 <div class="card service-card">
                     <div class="card-body bg-service3">
                         <h5 class="card-header">Pilates</h5>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item-center">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad4">
                 <div class="card service-card">
                     <div class="card-body bg-service4">
                         <h5 class="card-header">Spinning Classes</h5>
@@ -106,15 +106,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item-center">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad5">
                <div class="card service-card">
                     <div class="card-body bg-service5">
                         <h5 class="card-header">Yoga Classes</h5>
-                        <p class="card-text">Relax your body after a good workout and join our yoga classes which we offer every morning, afternoon and evening.</p>
+                        <p class="card-text">Relax your body after a good workout and join our yoga classes which we offer often throughout the week.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item-center">
+            <div class="col-12 col-md-6 col-lg-4 item-center" id="col-pad6">
                 <div class="card service-card">
                     <div class="card-body bg-service6">
                         <h5 class="card-header">Strength training</h5>
@@ -128,7 +128,7 @@
     <!-- Services -->
 
     <!-- Schedule -->
-    <section class="container-fluid bg-container" style="padding-left: 0px;">
+    <section class="container-fluid bg-container" style="padding-left: 0px;" id="schedule">
         <div class="row">
             <div class="col-12 item-center">
                 <h2 class="section-heading" style="color:#fafafa;">
@@ -138,90 +138,17 @@
             </div>
         </div>
         
-        <div class="row item-center" id="schedule-img-position">
+        <div class="row item-center">
             <img src="assets/img/schedule.png" class="img-fluid" id="img-schedule" alt="Schedule Classes">
         </div>
-        <!-- 
-         <div class="row item-center">
-            <div class="col-lg-8 col-md-12 d-none-sm item-center">
-                <table class="table table-bordered table-dark">
-                    <thead>
-                        <tr class="bg-info">
-                            <th scope="col">&nbsp;</th>
-                            <th scope="col">Monday</th>
-                            <th scope="col">Tuesday</th>
-                            <th scope="col">Wednesday</th>
-                            <th scope="col">Thursday</th>
-                            <th scope="col">Friday</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <th scope="row" class="bg-info">09:00</th>
-                            <td>Pilates</td>
-                            <td>Pilates</td>
-                            <td>Pilates</td>
-                            <td>Pilates</td>
-                            <td>Pilates</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">10:00</th>
-                            <td>Cycling</td>
-                            <td>HIIT</td>
-                            <td>Cycling</td>
-                            <td>TRX</td>
-                            <td>Cycling</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">15:00</th>
-                            <td>&nbsp;</td>
-                            <td>Core</td>
-                            <td>&nbsp;</td>
-                            <td>Cross HIT</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">17:00</th>
-                            <td>TRX</td>
-                            <td>Yoga</td>
-                            <td>Body Pump</td>
-                            <td>Cross HIT</td>
-                            <td>HIIT</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">18:00</th>
-                            <td>Cycling</td>
-                            <td>Cross HIT</td>
-                            <td>Cycling</td>
-                            <td>Yoga</td>
-                            <td>Cycling</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">19:00</th>
-                            <td>Core</td>
-                            <td>Cycling</td>
-                            <td>HIIT</td>
-                            <td>Cycling</td>
-                            <td>TRX</td>
-                        </tr>
-                        <tr>
-                        <th scope="row" class="bg-info">20:00</th>
-                            <td>Zumba</td>
-                            <td>Body Pump</td>
-                            <td>Zumba</td>
-                            <td>Yoga</td>
-                            <td>Zumba</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="text-muted"><small>Please note there are no classes on Sundays.</small></p>
-            </div>
-            -->
+        <div class="row item-center">
+        <p class="text-muted"><small>Please note we do not offer classes in the weekend or on holidays.</small></p>
+        </div>
     </section>
     <!-- Schedule -->
 
     <!-- Sign up form -->
-   <section class="container-fluid" style="margin-bottom:50px;">
+   <section class="container-fluid" style="margin-bottom:50px;" id="signup">
        <div class="row">
            <div class="col-12">
                <h2 class="section-heading">
@@ -235,17 +162,11 @@
                 <form class="center-form">
                     <div class="form-group">
                         <label for="formGroupExampleInput">Full Name</label>
-                        <input type="text" class="form-control" id="fullname">
-                    </div>
-                    <div class="form-group">
+                        <input type="text" class="form-control" id="fullname" required />
                         <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required />
                         <label for="formGroupExampleInput">Phone Number</label>
-                        <input type="text" class="form-control" id="phonenumber" placeholder="+32">
-                    </div>
-                    <div class="form-group">
+                        <input type="text" class="form-control" id="phonenumber" placeholder="+32" required />
                         <label for="exampleFormControlSelect1">Membership</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>Basic Membership (€19,99 per month)</option>
@@ -255,7 +176,7 @@
                     </div>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="submit" class="btn btn-info">Submit</button>
+                            <a href="submit.html" type="submit" class="btn btn-info">Submit</a>
                         </div>
                     </div>
                 </form>
@@ -264,7 +185,7 @@
     </section>
     <!-- Sign up form -->
 
-    <footer class="container-fluid">
+    <footer class="container-fluid" id="footer">
         <div class="row">
             <div class="col-sm-4">
                 <h5>Our location</h5>
@@ -282,19 +203,19 @@
                 </p>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/">
                             <i class="fa fa-facebook" aria-hdden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>   
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/">
                             <i class="fa fa-instagram" aria-hdden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>   
                     </li>
                      <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.youtube.com/">
                             <i class="fa fa-youtube" aria-hdden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>   
