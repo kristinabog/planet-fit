@@ -254,13 +254,13 @@ footer div h5 {
 @media only screen and (max-width: 1250px) and (min-width: 744px) {
 
     .service-card {
-        width: 250px;
+        width: 270px;
         height: 180px;
         margin-bottom: 40px;
     }
 
     .card-header {
-        font-size: 17px;
+        font-size: 16px;
         margin-bottom: 0;
     }
 
@@ -268,12 +268,8 @@ footer div h5 {
         font-size: 14px;
     }
 
-    .bg-container {
-        height: 70vh; 
-    }
-
-    .bg-container {
-        height: 75vh; 
+    .img-fluid {
+        max-width: 80%;
     }
 }
 
@@ -313,6 +309,10 @@ footer div h5 {
 
     .service-card {
         width: 300px;
+    }
+
+    #schedule {
+        padding-left: 0;
     }
 }
 

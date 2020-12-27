@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
     <title>PlanetFit</title>
 </head>
 
 <body>
     <header>
+        <!-- Credit for the code used for the navbar: https://getbootstrap.com/docs/4.0/components/navbar/-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/img/logo-nav.png" width="166" height="100%" alt="Logo Planetfit">
@@ -46,6 +46,7 @@
             <div class="opaque-overlay">&nbsp;</div>
                 <div class="row">
                     <div class="col-12">
+                        <!-- Credit for the code used for the jumbotron: https://getbootstrap.com/docs/4.0/components/jumbotron/ -->
                         <section class="callout jumbotron">
                             <h2 class="jumbotron-header">Get FIT with <span style="color:#17a2b8;font-weight:bold;">PLanetFIT</span>!</h2>
                             <hr class="block-divider">
@@ -61,6 +62,7 @@
     </header>
 
         <!-- Services -->
+        <!-- Credit for the code used for the cards: https://getbootstrap.com/docs/4.0/components/card/ -->
     <section class="container-fluid" id="services">
         <div class="row item-center">
             <div class="col-12">
@@ -137,7 +139,7 @@
                 <hr class="block-divider-white">
             </div>
         </div>
-        
+        <!-- Credit for the code used for the responsive image: https://getbootstrap.com/docs/4.0/content/images/#responsive-images -->
         <div class="row item-center">
             <img src="assets/img/schedule.png" class="img-fluid" id="img-schedule" alt="Schedule Classes">
         </div>
@@ -158,17 +160,18 @@
            </div>
        </div>
         <div class="row">
+            <!-- Credit for the code used for the form: https://getbootstrap.com/docs/4.0/components/forms/ -->
             <div class="col-12 item-center">
                 <form class="center-form">
                     <div class="form-group">
-                        <label for="formGroupExampleInput">Full Name</label>
+                        <label for="fullname">Full Name</label>
                         <input type="text" class="form-control" id="fullname" required />
-                        <label for="exampleFormControlInput1">Email address</label>
+                        <label for="emailaddress">Email address</label>
                         <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required />
-                        <label for="formGroupExampleInput">Phone Number</label>
+                        <label for="phonenumber">Phone Number</label>
                         <input type="text" class="form-control" id="phonenumber" placeholder="+32" required />
-                        <label for="exampleFormControlSelect1">Membership</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <label for="membership">Membership</label>
+                        <select class="form-control" id="membership">
                             <option>Basic Membership (€19,99 per month)</option>
                             <option>Silver Membership (€25,99 per month)</option>
                             <option>Gold Membership (€35,99 per month)</option>
@@ -188,7 +191,7 @@
     <footer class="container-fluid" id="footer">
         <div class="row">
             <div class="col-sm-4">
-                <h5>Our location</h5>
+                <h3>Our location</h3>
                 <p class="inline-block footer-details">
                     PlanetFIT Antwerp Center<br>
                     Nationalestraat 2435<br>
@@ -197,33 +200,33 @@
                 </p>
             </div>
             <div class="col-sm-4 footer-heading">
-                <h5>Contact Us</h5>                 
+                <h3>Contact Us</h3>                 
                 <p class="inline-block footer-details">+3241010101<br>
                    info@planetfit.be
                 </p>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook" aria-hdden="true" target="_blank"></i>
+                            <i class="fa fa-facebook" aria-hidden="true" target="_blank"></i>
                             <span class="sr-only">Facebook</span>
                         </a>   
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.instagram.com/">
-                            <i class="fa fa-instagram" aria-hdden="true" target="_blank"></i>
+                            <i class="fa fa-instagram" aria-hidden="true" target="_blank"></i>
                             <span class="sr-only">Instagram</span>
                         </a>   
                     </li>
                      <li class="list-inline-item">
                         <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hdden="true" target="_blank"></i>
+                            <i class="fa fa-youtube" aria-hidden="true" target="_blank"></i>
                             <span class="sr-only">Youtube</span>
                         </a>   
                     </li>
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h5>Opening Hours</h5>
+                <h3>Opening Hours</h3>
                 <p class="inline-block footer-details">
                     Monday: 08:00 - 21:00<br>
                     Tuesday: 08:00 - 21:00<br>
