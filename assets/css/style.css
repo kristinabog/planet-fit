@@ -254,8 +254,8 @@ footer div h5 {
 @media only screen and (max-width: 1250px) and (min-width: 744px) {
 
     .service-card {
-        width: 270px;
-        height: 180px;
+        width: 320px;
+        height: 200px;
         margin-bottom: 40px;
     }
 
@@ -265,7 +265,7 @@ footer div h5 {
     }
 
     .card-text {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .img-fluid {
@@ -276,7 +276,7 @@ footer div h5 {
 @media only screen and (max-width: 768px) {
 
     .service-card {
-        height: 180px;
+        height: 200px;
         width: 345px;
     }
 
