@@ -260,20 +260,28 @@ footer div h3 {
     }
 
     .card-header {
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 0;
     }
 
     .card-text {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .img-fluid {
         max-width: 80%;
     }
 
+    #img-schedule {
+        margin-top: 0;
+    }
+
     .bg-container {
-        height: 80vh; 
+        height: 70vh; 
+    }
+
+    .small, small {
+        font-size: 90%;
     }
 }
 
@@ -313,7 +321,7 @@ footer div h3 {
     }
 
     .text-muted {
-        font-size: 14px;
+        font-size: 15px;
     } 
 
     .service-card {
