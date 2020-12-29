@@ -277,7 +277,7 @@ footer div h3 {
     }
 
     .bg-container {
-        height: 70vh; 
+        height: 80vh; 
     }
 
     .small, small {
@@ -294,6 +294,7 @@ footer div h3 {
 
     .card-header {
         font-size: 18px;
+        margin-bottom: 10px;
     }
 
     .card-text {
@@ -307,7 +308,6 @@ footer div h3 {
     #schedule {
         padding-left: 0;
     }
-
 }
 
 @media only screen and (max-width: 360px) {
@@ -327,6 +327,5 @@ footer div h3 {
     .service-card {
         width: 300px;
     }
-
 }
 
