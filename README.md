@@ -26,13 +26,13 @@ The website is a single scrolling page with 4 separate page areas.
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used are: a shade of pale blue (##17a2b8), grey (#7F8888), white (#fafafa) and black.
-            These shades were chosen so they go along with the logo.
+            These shades go along with the logo.
     -   #### Typography
         -   The font-families chosen are Karla and Fira Sans. They are a clean with fine lines, which matches the logo.
     -   #### Imagery
         -   The imagery is important to wake up the motivation of the customer. 
             In the header there will be a background of someone in good shape. 
-            In the blocks with information about the services there will also be a background displaying the class/sport. 
+            In the blocks with information about the services there will be a background displaying the class/sport. 
             The logo in the header is used to build the business brand.
 
 *   ### Wireframes
@@ -56,7 +56,7 @@ The website is a single scrolling page with 4 separate page areas.
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website. 
-        It was used to make all the cards, to make the navbar and its responsiveness, the table, form and the style of the buttons.
+        It was used to make all the cards, the navbar and its responsiveness, the table, form and the style of the buttons.
 2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the font-family 'Karla' and 'Fira Sans' into the style.css file.
 3. [Font Awesome:](https://fontawesome.com/)
@@ -72,9 +72,9 @@ The website is a single scrolling page with 4 separate page areas.
 8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](/assets/img/milestone1-wireframe.pdf) during the design process.
 9. [TinyPNG:](https://tinypng.com/)
-    - TinyPNG ws used to compress the images.
+    - TinyPNG was used to compress the images.
 10. [PNG2JPG](https://png2jpg.com/) 
-    - Png to JPG was used to convert images to jpg.
+    - PNG2JPG was used to convert images to JPG.
 
 ## Testing
 
@@ -82,6 +82,9 @@ The following validators were used to make sure there were no syntax errors in t
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/img/html-validator.png) Errors with bootstrap code
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: no errors
+
+Lighthouse in chrome was used to test the website as well
+-   [Results](assets/img/lighthouse.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -92,14 +95,14 @@ The following validators were used to make sure there were no syntax errors in t
         * When you enter the website, the first thing you will see is a motivational picture and a header that triggers motivation to sign up.
     
     2. As a Visitor, I want to be able to easily navigate throughout the site and find the information I am looking for.
-        * At the top of each page there is a clean navigation bar, every link speaks for itself to which section it will take you.
+        * At the top the page there is a clean navigation bar which is fixed, every link speaks for itself to which section it will take you.
         * As it is a single scrolling page, you can easily scroll through the website and see all the content on one page.
 
     3. As a Visitor, I want to easily find information on all the services the gym offers.
-        * In the 'Our services" section you will find everything the gym offers in seperate boxes with suitable information.
+        * In the "Our services" section you will find the services the gym offers in seperate boxes with their information.
 
     4. As a Visitor, I want to find a time table for when they offer certain classes in which I am interested in.
-        * In the schedule section, you will find a table where you can find at what time all the offered classes are held.
+        * In the "Schedule" section, you will find a table where you can find at what time all the offered classes are held.
 
     5. As a Visitor, I want to find the location and their time schedule.
         * In the footer or when clicking on 'Contact' in the navbar.
@@ -115,39 +118,37 @@ The following validators were used to make sure there were no syntax errors in t
           on the icons it will take you to the social media page.
 
     8. Easily sign up as a member and see the different types of memberships and their prices.
-        * on desktop you will see a button in the navbar and in the header to take you to the sign up page.
-        * On tablets and mobile devices, you can find a sign up button in the header or scroll to the sign up section.
-        * When filling in the sign up form in the sign up section, you can choose in between 3 plans with the price mentioned next to it.
+        * On desktop you will see a button in the navbar and in the header, to take you to the "Sign up" section.
+        * On tablets and mobile devices, you can find a sign up button in the header or scroll to the "Sign up" section.
+        * When filling in the sign up form in the "sign up" section, you can choose in between 3 plans with the price mentioned next to it.
 
     9. The website to be responsive on any device, desktop, tablet or phone. For the content to look good and clean, and to be usable on all devices.
-        *  Service boxes
-         - on tablet there will be 2 service boxes per line
-         - on mobile the service boxes will be under each other, so it keeps the readability.
-        * The schedule img will resize to fit onto the screen.
-        * The footer columns will appear under eacht other, to maintain the readability.
+        * On tablet, there will be 2 service boxes per line
+        * On mobile, the service boxes will be under each other, so it keeps the readability.
+        * The schedule image will resize to fit onto the screen.
+        * The footer columns will appear under each other, to maintain the readability.
 
     ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   Family member were asked to test the website on their devices.
 -   The website was viewed on a variety of devices:
     Desktop:
     - HP Spectre Notebook
-    -
-    -
-    -
+    - Sony VAIO Fit15E (laptop)
+    - Acer Predator G5900 (computer)
+    - ASUS 18363 (computer) 
 
     Mobile:
-    - Samsung A41
-    -
-    -
-    -
--   Family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    - Samsung Galaxy A41
+    - Samsung Galaxy S7 2017
+    - Samsung Galaxy A70
+    - Huawei Y60 2018
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
--   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+- When clicking on the navigation bar links, it jumps to the middle of the setion and does not show the header of the section.
+- In the form, the input is not connected to the submit button.
 
 ## Deployment
 
@@ -160,7 +161,7 @@ I deployed the project to GitHub pages using the following steps:
 3. Scroll down the page until you find the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down the page to locate the now published [site](https://github.com/kristinabog/planet-fit) in the "GitHub Pages" section.
+6. Scroll back down the page to locate the now published [site](https://kristinabog.github.io/planet-fit/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
@@ -200,11 +201,11 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
 ### Media
 
 - [Pixabay](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used for the following images:
-    - [Background Callout](https://cdn.pixabay.com/photo/2015/07/02/10/23/training-828741_1280.jpg/)
-    - [Service box 1](https://cdn.pixabay.com/photo/2016/10/11/01/58/woman-1730325_1280.jpg/)
+    - [Background Callout](https://pixabay.com/photos/training-rmuscles-back-shoulders-828741/)
+    - [Service box 1](https://pixabay.com/photos/woman-gym-person-1730325/)
     - [Service box 3](https://pixabay.com/photos/weights-pilates-girls-1948837/)
-    - [Service box 4](https://cdn.pixabay.com/photo/2017/01/08/10/41/sports-1962574_1280.jpg/)
-    - [Background Schedule section](https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg/)
+    - [Service box 4](https://pixabay.com/photos/sports-indoor-cycling-fitness-gym-1962574/)
+    - [Background Schedule section](https://pixabay.com/photos/fitness-weight-dumbbell-1882721/)
 
 - [Unsplash](https://unsplash.com/) was used for the following images:
     - [Service box 2](https://unsplash.com/photos/gJtDg6WfMlQ/)
@@ -215,7 +216,7 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
 
 -   My Mentor for the helpful feedback.
 
--   The Slack Code Institute community who helped me with bugs during the creation of the website.
+-   The Slack Code Institute community and Tutor support who helped me with bugs during the creation of the website.
 
 -   A big thank you to friends and family that took the time to test the website.
 
