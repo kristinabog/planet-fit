@@ -329,3 +329,13 @@ footer div h3 {
     }
 }
 
+@media only screen and (max-width: 300px) {
+
+    .service-card {
+        width: 280px;
+        padding-right: 0;
+    }
+}
+
+
+
