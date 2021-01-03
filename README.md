@@ -6,7 +6,7 @@ This is my Milestone Project 1, while being a student on the Full-Stack Software
 This website is a marketing website for a local gym in Antwerp, Belgium named PlanetFit.
 The website is a single scrolling page with 4 separate page areas. The content of this website is for educational purposes only.
 
-![](assets/img/responsive.png)
+![Responsive](assets/img/responsive.png)
 
 
 ## User Experience (UX)
