@@ -4,7 +4,9 @@
 
 This is my Milestone Project 1, while being a student on the Full-Stack Software Development course from the Code Institute. 
 This website is a marketing website for a local gym in Antwerp, Belgium named PlanetFit.
-The website is a single scrolling page with 4 separate page areas. The content of this Website is for educational purposes only.
+The website is a single scrolling page with 4 separate page areas. The content of this website is for educational purposes only.
+
+![alt text](assets/img/responsive.png "Responsiveness of the PlanetFit Website")
 
 
 ## User Experience (UX)
@@ -213,6 +215,8 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
     - [Service box 2](https://unsplash.com/photos/gJtDg6WfMlQ/)
     - [Service box 5](https://unsplash.com/photos/YJdCZba0TYE/)
     - [Service box 6](https://unsplash.com/photos/0sa8D74iodI/)
+
+- [Image of the Responsiveness of the website in the intro of the README.md](http://ami.responsivedesign.is/)
 
 ### Acknowledgements
 
