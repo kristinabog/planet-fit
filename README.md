@@ -1,8 +1,10 @@
 <h1 align="center">PlanetFIT</h1>
 
+[View live website in GitHub Pages](https://kristinabog.github.io/planet-fit/)
+
 This is my Milestone Project 1, while being a student on the Full-Stack Software Development course from the Code Institute. 
-This website is a marketing website for a local gym in Belgium named PlanetFit.
-The website is a single scrolling page with 4 separate page areas.
+This website is a marketing website for a local gym in Antwerp, Belgium named PlanetFit.
+The website is a single scrolling page with 4 separate page areas. The content of this Website is for educational purposes only.
 
 
 ## User Experience (UX)
@@ -131,7 +133,7 @@ Lighthouse in chrome was used to test the website as well
     ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   Family member were asked to test the website on their devices.
+-   Family members were asked to test the website on their devices.
 -   The website was viewed on a variety of devices:
     Desktop:
     - HP Spectre Notebook
@@ -216,7 +218,7 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
 
 -   My Mentor for the helpful feedback.
 
--   The Slack Code Institute community and Tutor support who helped me with bugs during the creation of the website.
+-   The Slack Code Institute community who helped me with bugs during the creation of the website.
 
 -   A big thank you to friends and family that took the time to test the website.
 
