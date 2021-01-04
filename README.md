@@ -39,9 +39,9 @@ The website is a single scrolling page with 4 separate page areas. The content o
       You land in the beginning on a big background of someone in shape, who triggers your motivation to look the same. Clicking on a sign up button is possible while you are in this section. 
       The "Our services" section gives you a simple overview of what the gym offers and an image in the background displaying it, so the customer knows what to imagine. 
       The schedule section shows a time table of when everything is offered, so the customer has an idea if this fits into their daily routine. 
-      The "Sign Up" section gives the the oppportunity to sign up for the gym and see the prices before they submit. 
+      The "Sign Up" section gives the oppportunity to sign up for the gym and see the prices before they submit. 
       Once they click submit, they will be redirected to another page where they will be told they will receive an e-mail with the next steps.
-      At the end they can see the location of the gym and contact information in the footer. In the footer there are links to their social media profiles.
+      At the end they can see the location of the gym and contact information in the footer. In the footer there are links to their social media pages.
 
       
 -   ### Surface
