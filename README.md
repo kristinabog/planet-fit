@@ -6,7 +6,7 @@ This is my Milestone Project 1, while being a student on the Full-Stack Software
 This website is a marketing website for a local gym in Antwerp, Belgium named PlanetFit.
 The website is a single scrolling page with 4 separate page areas. The content of this website is for educational purposes only.
 
-![Responsive](assets/img/responsive.png "PlanetFit Responsiveness")
+![Planet Fit on various screens](assets/img/responsive.png)
 
 
 ## User Experience (UX)
@@ -17,7 +17,7 @@ The website is a single scrolling page with 4 separate page areas. The content o
 - As a Visitor, I want to
 
     1. I want to easily understand the purpose of the website and the company.
-    2. Be able to easily navigate throughout the site and find the information I am looking for.
+    2. Be able to easily navigate throughout the website and find the information I am looking for.
     3. Easily find information on all the services the gym offers.
     4. To find a time table for when they offer certain classes in which I am interested in.
     5. Find the location and their time schedule.
@@ -25,12 +25,29 @@ The website is a single scrolling page with 4 separate page areas. The content o
     7. Find more information about the company on social media.
     8. Easily sign up as a member and see the different types of memberships and their prices.
     9. The website to be responsive on any device, desktop, tablet or phone. For the content to look good and clean, and to be usable on all devices.
-     
 
--   ### Design
+-   ### Strategy
+    - The goal of this website is to attract new customers to the gym. This by displaying motivational imagery and highlighting what the gym offers
+      in a simple, modern and clean layout.
+
+-   ### Scope
+    - For customers, I want to give them a simple overview of what the gym offers, an easy quick way to sign up to the gym and to find more information about the gym.
+
+-   ### Structure
+    - A single scrolling page was chosen, to display all the information in 1 page. This contributes to the simplicity I wanted to accomplish.
+      There is a clean navigational bar that brings you to every section.
+      You land in the beginning on a big background of someone in shape, who triggers your motivation to look the same. Clicking on a sign up button is possible while you are in this section. 
+      The "Our services" section gives you a simple overview of what the gym offers and an image in the background displaying it, so the customer knows what to imagine. 
+      The schedule section shows a time table of when everything is offered, so the customer has an idea if this fits into their daily routine. 
+      The "Sign Up" section gives the the oppportunity to sign up for the gym and see the prices before they submit. 
+      Once they click submit, they will be redirected to another page where they will be told they will receive an e-mail with the next steps.
+      At the end they can see the location of the gym and contact information in the footer. In the footer there are links to their social media profiles.
+
+      
+-   ### Surface
     -   #### Colour Scheme
         -   The main colours used are: a shade of pale blue (##17a2b8), grey (#7F8888), white (#fafafa) and black.
-            These shades go along with the logo.
+            These shades go along with the logo and look sleek and modern. 
     -   #### Typography
         -   The font-families chosen are Karla and Fira Sans. They are a clean with fine lines, which matches the logo.
     -   #### Imagery
@@ -39,9 +56,9 @@ The website is a single scrolling page with 4 separate page areas. The content o
             In the blocks with information about the services there will be a background displaying the class/sport. 
             The logo in the header is used to build the business brand.
 
-*   ### Wireframes
+*   ### Skeleton
 
-    -   Desktop, tablet and phone Wireframe - [View](/assets/img/milestone1-wireframe.pdf)
+    -   Desktop, tablet and phone Wireframes - [View](/assets/img/milestone1-wireframe.pdf)
 
 ## Features
 
@@ -87,7 +104,7 @@ The following validators were used to make sure there were no syntax errors in t
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/img/html-validator.png) Errors with bootstrap code
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result: no errors
 
-Lighthouse in chrome was used to test the website as well
+Lighthouse in chrome was also used to test the website.
 -   [Results](assets/img/lighthouse.png)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -98,11 +115,11 @@ Lighthouse in chrome was used to test the website as well
         * The logo and imagery of the website makes it clear that the website is about a gym.
         * When you enter the website, the first thing you will see is a motivational picture and a header that triggers motivation to sign up.
     
-    2. As a Visitor, I want to be able to easily navigate throughout the site and find the information I am looking for.
+    2. As a Visitor, I want to be able to easily navigate throughout the website and find the information I am looking for.
         * At the top the page there is a clean navigation bar which is fixed, every link speaks for itself to which section it will take you.
         * As it is a single scrolling page, you can easily scroll through the website and see all the content on one page.
 
-    3. As a Visitor, I want to easily find information on all the services the gym offers.
+    3. As a Visitor, I want to easily find information on all of the services the gym offers.
         * In the "Our services" section you will find the services the gym offers in seperate boxes with their information.
 
     4. As a Visitor, I want to find a time table for when they offer certain classes in which I am interested in.
@@ -114,7 +131,7 @@ Lighthouse in chrome was used to test the website as well
 
     6. Find a way to contact the company if I have any questions.
         * In the footer or when clicking on 'Contact' in the navbar.
-        * In the mdidle of the footer you will find the Phone number and e-mail address of the gym.
+        * In the middle of the footer you will find the Phone number and e-mail address of the gym.
 
     7. Find more information about the company on social media.
         * In the footer or when clicking on 'Contact' in the navbar.
@@ -128,13 +145,17 @@ Lighthouse in chrome was used to test the website as well
 
     9. The website to be responsive on any device, desktop, tablet or phone. For the content to look good and clean, and to be usable on all devices.
         * On tablet, there will be 2 service boxes per line
-        * On mobile, the service boxes will be under each other, so it keeps the readability.
+        * On mobile, the service boxes will be under each other, so it maintains the readability.
         * The schedule image will resize to fit onto the screen.
         * The footer columns will appear under each other, to maintain the readability.
+    
+    ### Functional Testing
+
+    ![Functional Testing](assets/img/functional-testing.png)
 
     ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 -   Family members were asked to test the website on their devices.
 -   The website was viewed on a variety of devices:
     Desktop:
@@ -151,8 +172,7 @@ Lighthouse in chrome was used to test the website as well
 
 ### Known Bugs
 
-- When clicking on the navigation bar links, it jumps to the middle of the setion and does not show the header of the section.
-- In the form, the input is not connected to the submit button.
+- When clicking on the navigation bar links, it jumps to the middle of the section and does not show the header of the section.
 
 ## Deployment
 
@@ -187,7 +207,7 @@ To view and/or to make changes to the repository without it affecting the origin
 ```
 $ git clone https://github.com/kristinabog/planet-fit
 ```
-7. After pressing Enter, your local clone will be created.
+7. After clone is created, dubble click on Index.html
 
 ## Credits
 
@@ -204,7 +224,7 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
 
 ### Media
 
-- [Pixabay](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used for the following images:
+- [Pixabay](https://pixabay.com/) was used for the following images:
     - [Background Callout](https://pixabay.com/photos/training-rmuscles-back-shoulders-828741/)
     - [Service box 1](https://pixabay.com/photos/woman-gym-person-1730325/)
     - [Service box 3](https://pixabay.com/photos/weights-pilates-girls-1948837/)
@@ -222,8 +242,8 @@ Bootstrap Library used throughout the project for the creation of the navbar, ca
 
 -   My Mentor for the helpful feedback.
 
--   The Slack Code Institute community who helped me with bugs during the creation of the website.
+-   The Slack Code Institute community and Tutor support who helped me with bugs during the creation of the website.
 
--   A big thank you to friends and family that took the time to test the website.
+-   A thank you to family that took the time to test the website.
 
 
